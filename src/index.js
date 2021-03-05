@@ -123,7 +123,7 @@ const MyTerminal = () => {
     <Terminal
       commands={commands}
       welcomeMessage={"Welcome to a Text Adventure! Type 'help'."}
-      promptLabel={"what_to_do?"}
+      promptLabel={">_"}
     />
   );
 };
